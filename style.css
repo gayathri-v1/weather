@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    height:100vh;
+    width:auto;
+    background-color:aqua;
+    background-image: linear-gradient(to right, rgb(226, 173, 173),rgb(181, 181, 224));
+}
+.forminput{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    /* border: 1px solid black; */
+}
+input,button{
+    
+   padding:10px;
+   border-radius: 10px;
+   border: none; 
+}
+button{
+    background-color: transparent;
+    margin-top: 10px;
+    
+}
+.weatherDiv,.locDiv{
+    background-color: rgb(243, 229, 229);
+    width:300px;
+    padding:10px;
+    border-radius: 10px;
+}
+.result{
+    display: flex;
+    flex-direction: row;
+    gap:10px;
+    justify-content: center;
+    margin-top: 20px;
+}
